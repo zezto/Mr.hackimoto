@@ -9,3 +9,4 @@ class Hackimoto(object):
 
 
 print (Hackimoto.about())
+"""Okay then"""
