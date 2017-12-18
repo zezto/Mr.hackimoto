@@ -1,10 +1,11 @@
 class Hackimoto(object):
-    age = 67
-    profession = "Psychologist"
-    Purpose = "Help you become your best self ,possible "
-    humor = "How many psychotherapists does it take to change a lightbulb? \n Just one, so long as the light bulb *wants* to change."
-    
-    def __init__(self):
-        pass
+        profession = "Psychologist"
+        Purpose = "Help you become your best self ,possible "
+        humor = "How many psychotherapists does it take to change a lightbulb? \n Just one, so long as the light bulb *wants* to change."
+        wut = "Mr.Hackimoto"
+        
+        def about():
+            return "Hey im %s im a %s my purpose is to %s" % (Hackimoto.wut, Hackimoto.profession, Hackimoto.Purpose)
 
-""" Welcome to phone doctor"""
+
+print (Hackimoto.about())
